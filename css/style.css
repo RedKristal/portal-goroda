@@ -102,6 +102,11 @@ strong{
     display: flex;
 }
 
+.number{
+    font-size: 16rem;
+    line-height: 3rem;
+}
+
 .header{
     height: 8rem;
     display: flex;
@@ -334,7 +339,8 @@ nav a:hover{
 }
 
 .what__item{
-    display: flexbox;
+    display: flex;
+    flex-direction: column;
     width: 30%;
     margin-inline: 5%;
     text-align: center;
@@ -342,6 +348,11 @@ nav a:hover{
     line-height: 30px;
     align-items: center;
 }
+
+.item-reversed{
+    flex-direction: column-reverse;
+}
+
 
 .what__item img{
     width: 90px;
@@ -354,6 +365,7 @@ nav a:hover{
     border: 2px solid #31304f;
     border-radius: 28px;
     height: 120px;
+    width: 100%;
     align-items: center;
     justify-content: center;
 }
@@ -378,6 +390,10 @@ nav a:hover{
     line-height: 42px;
 }
 
+.what__bottom{
+    display: none;
+}
+
 table{
     border-collapse: collapse;
     overflow-x: auto;
@@ -389,37 +405,37 @@ thead{
     background-color: #323232;
     color: #fff;
 }
-table img{
+.franchise__table img{
     vertical-align: middle;
     width: 30%;
     padding-left: 2rem;
 }
-thead th {
+.franchise__table thead th {
     font-size: 1.33rem;
     font-weight: 300;
     text-align: left;
     padding-left: 3rem;
     height: 100px;
 }
-td{
+.franchise__table td{
     padding: 1rem 3rem;
 }
-tr:nth-child(even){
+.franchise__table tr:nth-child(even){
     background-color: #ecf0f3;
 }
-tbody :nth-child(even) td:nth-child(2){
+.franchise__table tbody :nth-child(even) td:nth-child(2){
     background-color: #b1151c;
     color: #fff;
 }
-tbody :nth-child(odd) td:nth-child(2){
+.franchise__table tbody :nth-child(odd) td:nth-child(2){
     background-color: #cf161e;
     color: #fff;
 }
 
-.number{
-    font-size: 16rem;
-    line-height: 3rem;
+.franchise__table-mobile{
+    display: none;
 }
+
 .monetization__line--right{
     background-image: url("../img/ellipse-right-blue.png");
     background-position: center center;
@@ -464,13 +480,13 @@ tbody :nth-child(odd) td:nth-child(2){
     color: #000;
 }
 
-.catalog{
+.catalog__col{
     display: flex;
     flex-direction: column;
     width: 45%;
 }
 
-.catalog img{
+.catalog__col img{
     width: 90%;
 }
 
@@ -487,6 +503,12 @@ tbody :nth-child(odd) td:nth-child(2){
 .banners{
     padding-top: 2rem;
 }
+
+.banners__h3-mobile,
+.projects__h3-mobile{
+    display: none;
+}
+
 .banner__col{
     display: flex;
     align-items: flex-start;
@@ -502,7 +524,7 @@ tbody :nth-child(odd) td:nth-child(2){
 .banners__list{
     display: flex;
     flex-direction: column;
-    width: 80%;
+    width: 90%;
 }
 
 .banners__item{
@@ -511,7 +533,7 @@ tbody :nth-child(odd) td:nth-child(2){
 }
 
 .banners__item img{
-    padding: .5rem 1rem;
+    padding: .5rem 1rem .5rem 0;
 }
 
 .articles__projects{
@@ -534,6 +556,10 @@ tbody :nth-child(odd) td:nth-child(2){
     line-height: 16rem;
 }
 
+.articles__img-mobile{
+    display: none;
+}
+
 .projects__text{
     width: 30%;
     padding-left: 3%;
@@ -542,7 +568,9 @@ tbody :nth-child(odd) td:nth-child(2){
 .projects__list{
     margin: 3rem 0;
 }
-.projects__item{
+
+.projects__item,
+.projects__item-bottom{
     padding-block: 5%;
 }
 
