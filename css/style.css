@@ -405,11 +405,13 @@ thead{
     background-color: #323232;
     color: #fff;
 }
+
 .franchise__table img{
     vertical-align: middle;
     width: 30%;
     padding-left: 2rem;
 }
+
 .franchise__table thead th {
     font-size: 1.33rem;
     font-weight: 300;
@@ -684,7 +686,12 @@ thead{
     padding: .5rem 1rem;
 }
 
-.mobanner__img{
+
+.mobanner__img-mobile{
+    display: none;
+}
+
+.mobanner__img-desktop{
     margin-bottom: 2rem;
 }
 
