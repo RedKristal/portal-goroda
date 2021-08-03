@@ -47,7 +47,9 @@
     .banners__h3-desktop,
     .articles__img-desktop,
     .projects__h3-desktop,
-    .icons{
+    .icons,
+    .mobanner__img-desktop,
+    .mobanner__dot{
         display: none;
     }
     .container {
@@ -441,18 +443,65 @@
 
     .mobile-banner{
         background-size: cover;
-        background-position: 15% bottom;
-        padding: 0;
-        margin: 0;
+        background-position: 10% bottom;
+        margin-top: 3rem;
+        margin-bottom: -3rem;
+        padding-bottom: 7rem;
+        padding-top: 2rem;
+    }
+
+    .mobanner__col{
+        width: 100%;
+        padding-left: 2rem;
+        font-size: 1.3rem;
+    }
+    
+    .mobanner__title h3::before{
+        content: "6.";
+    }
+
+    .mobanner__img-mobile{
+        display: block;
+    }
+
+    .mobanner__img-mobile img{
+        width: 50%;
+        margin-bottom: 2rem;
+    }
+
+    .mobanner__list{
+        margin: 4rem auto;
+        width: 100%;
+    }
+
+    .mobanner__item{
+        align-items: flex-start;
+        margin: 1rem 0;
+    }
+
+    .mobanner__item img{
+        padding: 0 1rem 0 0;
+    }
+
+    .social{
+        font-size: 1.3rem;
+    }
+
+    .social__img{
+        width: 90%;
+        margin-top: -5rem;
+        margin-inline: 5%;
+    }
+
+    .social__col{
+        padding: 2rem;
+    }
+
+    .social__item{
+        margin-bottom: 2rem;
     }
 
 
-
-
-
-
-
-    .social,
     .ads__brand,
     .rocket,
     .trust,
