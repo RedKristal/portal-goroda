@@ -49,7 +49,12 @@
     .projects__h3-desktop,
     .icons,
     .mobanner__img-desktop,
-    .mobanner__dot{
+    .mobanner__dot,
+    .ads-title br,
+    .brand-title br,
+    .trust__inner-desktop,
+    .reasons__item--number,
+    .reasons__list br{
         display: none;
     }
     .container {
@@ -494,19 +499,139 @@
     }
 
     .social__col{
-        padding: 2rem;
+        padding: 2rem 2rem 0 2rem;
     }
 
     .social__item{
         margin-bottom: 2rem;
     }
 
+    .ads__brand{
+        font-size: 1.3rem;
+    }
 
-    .ads__brand,
-    .rocket,
-    .trust,
-    .reasons,
-    .partners,
+    .ads-title h3::before{
+        content: "8. ";
+    }
+
+    .ads-title, .brand-title{
+        margin: 1rem 2rem;
+    }
+
+    .ads__brand-subtitle{
+        margin-top: 2rem;
+    }
+
+    .payads img{
+        width: 100%;
+    }
+
+    .brand-title h3::before{
+        content: "9. ";
+    }
+
+    .ads__brand-content{
+        flex-direction: column;
+        margin-left:0;
+    }
+
+    .brand__item{
+        margin: 1rem auto;
+        line-height: 1.7rem;
+        padding-right: 3rem;
+    }
+
+    .rocket{
+        background-image: url("../img/rocket-mobile.png");
+        background-position: center top;
+        height: auto;
+        font-size: 2.6rem;
+    }
+
+    .rocket h3{
+        margin-top: 12rem;
+    }
+
+    .trust__inner-mobile{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .trust__inner-mobile img{
+        margin-block: 1rem;
+    }
+
+    .reasons{
+        margin-top: 4rem;
+        padding-top: 1rem;
+    }
+
+    .reasons__top {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .reasons__border{
+        margin: 3rem 1rem 1rem 1rem;
+        
+    }
+
+    .reasons__border img{
+        width: 22%;
+        margin-top: -2rem;
+    }
+
+    .top-border {
+        margin-left: calc(30% + 3px);
+        width: 70%;
+    }
+
+    .border__text{
+        font-size: 2.6rem;
+    }
+
+    .reasons__top-text{
+        font-size: 1.7rem;
+        line-height: 2.5rem;
+    }
+
+    .reasons__bottom-text{
+        text-align: center;
+        font-size: 1.7rem;
+        line-height: 2.5rem;
+        padding-block: 2rem;
+    }
+
+
+    .reasons__list{
+        flex-wrap: wrap;
+        font-size: 1.7rem;
+    }
+
+    .reasons__item {
+        display: flex;
+        padding-inline: 2rem;
+        justify-content: center;
+        margin: 2rem;
+        text-align: center;
+    }
+
+    .reasons__item-content img{
+        width: 6.5rem;
+        margin: auto;
+    }
+
+    .partners-mobile{
+        display: block;
+        text-align: center;
+    }
+
+
+
+
+
+    
     .team,
     .reviews,
     footer{
