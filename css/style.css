@@ -741,7 +741,7 @@ thead{
     margin: 3rem 2rem -5rem 0;
 }
 
-.ads__brand-title{
+.ads-title, .brand-title{
     margin: 1rem 4rem;
 }
 
@@ -795,10 +795,14 @@ thead{
     margin: 2rem auto;
 }
 
-.trust__inner{
+.trust__inner-desktop{
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+.trust__inner-mobile{
+    display: none;
 }
 
 .trust__btn{
@@ -811,8 +815,18 @@ thead{
 .reasons{
     background-image: url("../img/reason-background.png");
     background-repeat: no-repeat;
+    background-size: cover;
     background-position: center top;
     margin-top: 5rem;
+}
+
+.angle__img{
+    background-image: url("../img/angle.png");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    padding: 1rem;
+    margin-block: 1rem;
 }
 
 .reasons__top{
@@ -881,7 +895,7 @@ thead{
 .reasons__list{
     display: flex;
     justify-content: space-around;
-    margin-top: 8rem;
+    /* margin-top: 8rem; */
 }
 
 .reasons__item{
@@ -900,6 +914,10 @@ thead{
 .reasons__item--title{
     padding-top: 1rem;
     text-align: center;
+}
+
+.partners-mobile{
+    display: none;
 }
 
 .partners{
