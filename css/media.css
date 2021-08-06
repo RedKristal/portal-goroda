@@ -54,7 +54,11 @@
     .brand-title br,
     .trust__inner-desktop,
     .reasons__item--number,
-    .reasons__list br{
+    .reasons__list br,
+    .our-partners-desktop,
+    .team__item,
+    .footer__item img,
+    .footer__info{
         display: none;
     }
     .container {
@@ -625,17 +629,68 @@
     .partners-mobile{
         display: block;
         text-align: center;
+        
     }
 
+    .our-partners-mobile{
+        display: block;
+        width: 80%;
+    }
 
+    .partners button{
+        margin: 3rem auto;
+    }
 
+    .team__row {
+        margin-top: 4rem;
+        justify-content: center;
+    }
 
+    .team__item-mobile{
+        display: block;
+        text-align: center;
+        margin: 0 2rem;
+    }
 
+    .team__name{
+        font-size: 1.7rem;
+    }
     
-    .team,
-    .reviews,
-    footer{
-        display: none;
+    .team__title{
+        font-size: 1rem;
     }
+
+    footer{
+        padding-inline: 2rem 1rem;
+        font-size: 1.3rem;
+    }
+
+    footer strong{
+        font-size: 2.6rem;
+        font-weight: 700;
+        line-height: 3.4rem;
+    }
+
+    .franchise{
+        font-size: 6.85rem;
+        margin-bottom: 1rem;
+    }
+
+    .footer__text {
+        font-size: 3.4rem;
+        margin-top: 1rem;
+    }
+
+    .footer__item{
+        width: 100%;
+    }
+
+    .footer__col {
+        padding: 2rem;
+    }
+
+
+
+
 
 }
