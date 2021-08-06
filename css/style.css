@@ -930,6 +930,10 @@ thead{
     margin-top: 6rem;
 }
 
+.our-partners-mobile{
+    display: none;
+}
+
 .partners button{
     margin: 6rem auto;
 }
@@ -946,6 +950,10 @@ thead{
 .team__item{
     text-align: center;
     margin: 0 2rem;
+}
+
+.team__item-mobile{
+    display: none;
 }
 
 .team__name{
@@ -1029,6 +1037,7 @@ footer{
     color: #47456d;
     line-height: 8rem;
     margin-bottom: 3rem;
+    letter-spacing: -5px;
 }
 
 .footer__text{
