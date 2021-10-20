@@ -1,21 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru-RU">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-MXK2GKV');</script>
+    <!-- End Google Tag Manager -->
+    <title>Бизнес по франшизе в России — Портал Города</title>
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="description"
+        content="Выгодный бизнес по франшизе в любом городе РФ. 150+ партнеров, лучшие условия, присоединяйся сейчас!">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/media.css">
 </head>
 
 <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MXK2GKV" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
     <section class="cover">
         <div class="container main">
             <header class="header">
@@ -26,12 +44,12 @@
                 </div>
                 <nav class="nav">
                     <ul class="nav__list">
-                        <li class="nav__item nav__item--red"><a href="#">Кто мы</a></li>
+                        <li class="nav__item"><a href="#who-we-are">Кто мы</a></li>
                         <li class="nav__item"><a href="#our-advantages">Наши преимущества</a></li>
-                        <li class="nav__item"><a href="#">Монетизация</a></li>
-                        <li class="nav__item"><a href="#">О компании</a></li>
-                        <li class="nav__item"><a href="#">Команда</a></li>
-                        <li class="nav__item"><a href="#">Отзывы</a></li>
+                        <li class="nav__item"><a href="#monetization">Монетизация</a></li>
+                        <li class="nav__item"><a href="#about-company">О компании</a></li>
+                        <li class="nav__item"><a href="#our-team">Команда</a></li>
+                        <li class="nav__item"><a href="#reviews-about-us">Отзывы</a></li>
                     </ul>
                 </nav>
                 <div class="header__contact">
@@ -42,9 +60,7 @@
                 </div>
                 <div class="header-mobile">
                     <div class="mobile__menu">
-                        <a href="#">
-                            <img src="img/mobile-menu.svg" alt="">
-                        </a>
+                        <img src="img/mobile-menu.svg" alt="">
                     </div>
                     <div class="mobile__logo">
                         <a href="#">
@@ -58,12 +74,13 @@
                     Откройте успешный бизнес по надежной франшизе
                 </div>
                 <div class="cover__text text-white">
-                    Получайте прибыль<br>от 4000$ до 10 000$ в месяц!*
+                    Получайте прибыль <br>от 400 000 ₽ до 700 000 ₽ в месяц!*
                 </div>
                 <div class="cover__text-desktop text-white">
                     *Все результаты индивидуальны и могут отличаться
                 </div>
-                <button type="submit" class="btn cover__btn btn-white">Открыть свой бизнес</button>
+                <button data-fancybox="" data-src="#modal" href="javascript:;" type="submit"
+                    class="btn cover__btn btn-white">Открыть свой бизнес</button>
 
                 <div class="cover__text-mobile text-white">
                     *Все результаты индивидуальны и могут отличаться
@@ -75,7 +92,7 @@
         <div class="line__red"></div>
     </section>
 
-    <section class="about container">
+    <section id="who-we-are" class="about container">
         <div class="about__circle">
             <div class="about__circle--red"></div>
             <div class="about__circle--blue"></div>
@@ -118,9 +135,9 @@
         Business
     </div>
 
-    <section class="why__franch">
+    <section id="our-advantages" class="why__franch">
         <div class="container">
-            <h2 id="our-advantages">
+            <h2>
                 Почему стоит выбрать франшизу?
             </h2>
             <div class="why__list">
@@ -173,7 +190,8 @@
                     Быстрая окупаемость
                 </div>
             </div>
-            <button type="submit" class="btn why__btn btn-pink">Купить бизнес</button>
+            <button data-fancybox="" data-src="#modal" href="javascript:;" type="submit"
+                class="btn why__btn btn-pink">Купить бизнес</button>
         </div>
     </section>
 
@@ -238,11 +256,11 @@
                 <thead>
                     <tr>
                         <th>Критерии</th>
-                        <th>Франшиза <img src="img/logo.svg" alt=""> </th>
+                        <th>Франшиза Портал-Города</th>
                         <th>Собственный проект</th>
                     </tr>
                 </thead>
-                <tbody id="franchise-table">
+                <tbody>
 
                     <tr>
                         <td>Стоимость проекта</td>
@@ -427,7 +445,7 @@
         </div>
     </section>
 
-    <section>
+    <section id="monetization">
         <h2>На чем вы будете зарабатывать?</h2>
     </section>
 
@@ -536,6 +554,9 @@
                 <div class="projects__img">
                     <img src="img/projects.png" alt="">
                 </div>
+                <div class="projects__img-mobile">
+                    <img src="img/projects-mobile.png" alt="">
+                </div>
                 <div class="projects__text">
                     <h3 class="projects__h3-desktop">Размещение в спецпроектах</h3>
                     <div class="number text-grey projects__number">4</div>
@@ -607,47 +628,52 @@
 
     <section class="mobile-banner text-white">
         <div class="container">
-            <div class="row">
-                <div class="mobanner__col">
-                    <div class="mobanner__title">
-                        <div class="headers">
-                            <h3>Баннерная реклама<br>в мобильном приложении</h3>
-                            <div class="mobanner__img-mobile">
-                                <img src="img/mobile-banners.png" alt="">
+            <div class="mobanner__marker">
+                <div class="row">
+                    <div class="mobanner__col">
+                        <div class="mobanner__title">
+                            <div class="headers">
+                                <h3>Баннерная реклама<br>в мобильном приложении</h3>
+                                <div class="mobanner__img-mobile">
+                                    <img src="img/mobile-banners.png" alt="">
+                                </div>
+                                <b>Преимущества рекламы в мобильном приложении:</b>
                             </div>
-                            <b>Преимущества рекламы в мобильном приложении:</b>
+                            <div class="number mobanner__number text-white">6</div>
                         </div>
-                        <div class="number mobanner__number text-white">6</div>
-                    </div>
-                    <div class="mobanner__list">
-                        <div class="mobanner__item">
-                            <img src="img/interactive.svg" alt="">
-                            <div><b>Интерактивные возможности</b><br>Звонки прямо из приложения или с сайта, игры,
-                                моментальные снимки, видео, геолокация, акселерометр, тачскрин открывают новые
-                                возможности для взаимодействия пользователей и бренда</div>
+                        <div class="mobanner__list">
+                            <div class="mobanner__item">
+                                <img src="img/interactive.svg" alt="">
+                                <div><b>Интерактивные возможности</b><br>Звонки прямо из приложения или с сайта, игры,
+                                    моментальные снимки, видео, геолокация, акселерометр, тачскрин открывают новые
+                                    возможности для взаимодействия пользователей и бренда</div>
+                            </div>
+                            <div class="mobanner__item">
+                                <img src="img/debit-card.svg" alt="">
+                                <div><b>Платежеспособная аудитория</b><br>Аудитория мобильных приложений привыкла
+                                    платить за
+                                    контент и совершать покупки прямо с устройств</div>
+                            </div>
+                            <div class="mobanner__item">
+                                <img src="img/fast-time-blue.svg" alt="">
+                                <div><b>Мгновенная коммуникация</b><br>Мобильные телефоны всегда под рукой и
+                                    пользователь
+                                    получает сообщения мгновенно</div>
+                            </div>
                         </div>
-                        <div class="mobanner__item">
-                            <img src="img/debit-card.svg" alt="">
-                            <div><b>Платежеспособная аудитория</b><br>Аудитория мобильных приложений привыкла платить за
-                                контент и совершать покупки прямо с устройств</div>
-                        </div>
-                        <div class="mobanner__item">
-                            <img src="img/fast-time-blue.svg" alt="">
-                            <div><b>Мгновенная коммуникация</b><br>Мобильные телефоны всегда под рукой и пользователь
-                                получает сообщения мгновенно</div>
-                        </div>
-                    </div>
 
-                </div>
-                <div class="mobanner__img-desktop">
-                    <img src="img/mobile-banners.png" alt="">
-                </div>
-                <div class="col mobanner__dot">
-                    <ul>
-                        <li>Самый популярный вид рекламы в мобильных приложениях</li>
-                    </ul>
+                    </div>
+                    <div class="mobanner__img-desktop">
+                        <img src="img/mobile-banners.png" alt="">
+                    </div>
+                    <div class="col mobanner__dot">
+                        <ul>
+                            <li>Самый популярный вид рекламы в мобильных приложениях</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
+
         </div>
     </section>
 
@@ -743,26 +769,29 @@
     </section>
 
     <section class="rocket text-white">
+        <img src="img/Rocket.svg" alt="">
         <h3>Франшиза Портал-Города - готовое решение<br>для вашего бизнеса</h3>
         Начните свой прибыльный бизнес с Портал-Города<br>
-        <button type="submit" class="btn rocket__btn btn-white">Получить бизнес план</button>
+        <button data-fancybox="" data-src="#modal" href="javascript:;" type="submit"
+            class="btn rocket__btn btn-white">Получить бизнес план</button>
     </section>
 
-    <section class="trust">
+    <section id="about-company" class="trust">
         <div class="container">
             <h2>Масштабность Портал-Города. Почему нам доверяют?</h2>
             <div class="trust__inner-desktop">
-                <img src="img/map-trust.png" alt="">
-                <img src="img/visiters-trust.png" alt="">
-                <img src="img/statistics-trust.png" alt="">
+                <img src="img/map-trust.svg" alt="">
+                <img src="img/visiters-trust.svg" alt="">
+                <img src="img/statistics-trust.svg" alt="">
             </div>
             <div class="trust__inner-mobile">
-                <img src="img/map-trust-mobile.png" alt="">
-                <img src="img/visiters-trust.png" alt="">
-                <img src="img/money-bag.png" alt="">
-                <img src="img/10-years.png" alt="">
+                <img src="img/map-trust-mobile.svg" alt="">
+                <img src="img/visiters-trust.svg" alt="">
+                <img src="img/money-bag.svg" alt="">
+                <img src="img/10-years.svg" alt="">
             </div>
-            <button type="submit" class="btn btn-pink trust__btn">Меня заинтересовало</button>
+            <button data-fancybox="" data-src="#modal" href="javascript:;" type="submit"
+                class="btn btn-pink trust__btn">Меня заинтересовало</button>
         </div>
     </section>
 
@@ -792,7 +821,7 @@
             </div>
         </div>
         <div class="angle__img"></div>
-        
+
     </section>
 
     <section>
@@ -800,7 +829,7 @@
             <div class="reasons__item">
                 <div class="reasons__item--number">1</div>
                 <div class="reasons__item-content">
-                    <img src="img/logo.svg" alt="">
+                    <img src="img/logo_red.svg" alt="">
                     <div class="reasons__item--title">Узнаваемый <br>бренд</div>
                 </div>
             </div>
@@ -842,44 +871,57 @@
 
     <section class="partners">
         <img class="our-partners-desktop" src="img/our-partners.png" alt="">
-        <img class="our-partners-mobile" src="img/tmp-logos.png" alt="">
-        <button type="submit" class="btn btn-pink">Хочу выгодный бизнес</button>
+        <div class="our-partners-mobile">
+            <img src="img/qapshagai.svg" alt="">
+            <img src="img/1rnd.svg" alt="">
+            <img src="img/karelia.svg" alt="">
+            <img src="img/go31.svg" alt="">
+            <img src="img/balakovo.svg" alt="">
+            <img src="img/inAktau.svg" alt="">
+            <img src="img/go174.svg" alt="">
+            <img src="img/eosetia.svg" alt="">
+        </div>
+        <button data-fancybox="" data-src="#modal" href="javascript:;" type="submit" class="btn btn-pink">Хочу выгодный
+            бизнес</button>
+
     </section>
 
-    <section class="team text-white">
+    <section id="our-team" class="team text-white">
         <div class="container">
-            <h2>Наша команда</h2>
-            <div class="row team__row">
-                <div class="team__item">
-                    <img src="img/cvo.png" alt="">
-                    <div class="team__name">Иван Полиенко</div>
-                    <div class="team__title">директор по развитию</div>
-                </div>
-                <div class="team__item">
-                    <img src="img/sales.png" alt="">
-                    <div class="team__name">Олег Костылев</div>
-                    <div class="team__title">руководитель отдела продаж</div>
-                </div>
-                <div class="team__item">
-                    <img src="img/support.png" alt="">
-                    <div class="team__name">Ксения Калмыкова</div>
-                    <div class="team__title">руководитель отдела support</div>
-                </div>
-                <div class="team__item">
-                    <img src="img/marketing.png" alt="">
-                    <div class="team__name">Алексей Боровский</div>
-                    <div class="team__title">руководитель отдела маркетинга</div>
-                </div>
-                <div class="team__item-mobile">
-                    <img src="img/ceo.png" alt="">
-                    <div class="team__name">Павел Антюфеев</div>
-                    <div class="team__title">Генеральный директор</div>
+            <div class="team-marker">
+                <h2>Наша команда</h2>
+                <div class="row team__row">
+                    <div class="team__item">
+                        <img src="img/ceo.png" alt="">
+                        <div class="team__name">Павел Антюфеев</div>
+                        <div class="team__title">Генеральный директор</div>
+                    </div>
+                    <div class="team__item">
+                        <img src="img/bdm.png" alt="">
+                        <div class="team__name">Клыков Алексей</div>
+                        <div class="team__title">менеджер по развитию</div>
+                    </div>
+                    <div class="team__item">
+                        <img src="img/pr.png" alt="">
+                        <div class="team__name">Дарья Беседина</div>
+                        <div class="team__title">PR менеджер</div>
+                    </div>
+                    <div class="team__item">
+                        <img src="img/tech.png" alt="">
+                        <div class="team__name">Илья Кольцов</div>
+                        <div class="team__title">техническая поддержка</div>
+                    </div>
+                    <div class="team__item-mobile">
+                        <img src="img/ceo-mobile.png" alt="">
+                        <div class="team__name">Павел Антюфеев</div>
+                        <div class="team__title">Генеральный директор</div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="reviews">
+    <section id="reviews-about-us" class="reviews">
         <div class="container">
             <h2>Что говорят о нас</h2>
             <div class="review__list">
@@ -917,8 +959,63 @@
                         принципе, как и обещали.</div>
                 </div>
             </div>
+
+
+            <div class="slider">
+                <div class="slider__inner">
+                    <div class="slider__item">
+                        <div class="review__item">
+                            <div class="review__item--avatar"><img src="img/1rnd.png" alt=""></div>
+                            <div class="review__item--name"><b>Александр Петров</b></div>
+                            <div class="review__item--site">Сайт города Ростова-на-Дону</div>
+                            <div class="review__item--url"><a href="www.1rnd.ru">www.1Rnd.ru</a></div>
+                            <div class="review__item--icon"><img src="img/close.svg" alt=""></div>
+                            <div class="review__item--text">Отличная франшиза! Приобрел в 2018 году,сейчас уже отбил все
+                                вложения! Пришлось плотно поработать полгода, но результат того стоил! Как и любой вид
+                                бизнеса,
+                                франшиза требует вашего непосредственного участия. Сидеть ровно на пятой точке не
+                                получится.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider__item">
+                        <div class="review__item">
+                            <div class="review__item--avatar"><img src="img/inaktau.png" alt=""></div>
+                            <div class="review__item--name"><b>Ольга Николаева</b></div>
+                            <div class="review__item--site"> Сайт города Актау</div>
+                            <div class="review__item--url"><a href="www.inaktau.kz">www.inaktau.kz</a></div>
+                            <div class="review__item--icon"><img src="img/close.svg" alt=""></div>
+                            <div class="review__item--text">Мы запускались на базе собственного бизнеса (был свой
+                                городской
+                                портал). Анонсировали посетителям сайта, что будет редизайн и достаточно безболезненно
+                                перешли в
+                                формат сети "Портал-Города". Всем действующим клиентам сделали разные плюшки по
+                                размещению,
+                                чтобы они остались с нами.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider__item">
+                        <div class="review__item">
+                            <div class="review__item--avatar"><img src="img/go31.png" alt=""></div>
+                            <div class="review__item--name"><b>Дмитрий Синевин</b></div>
+                            <div class="review__item--site">Сайт города Белгорода</div>
+                            <div class="review__item--url"><a href="www.go31.ru">www.go31.ru</a></div>
+                            <div class="review__item--icon"><img src="img/close.svg" alt=""></div>
+                            <div class="review__item--text">Когда узнал о франшизе, сразу загорелся идеей. Круто же:
+                                новости
+                                пишешь, набираешь влияние в городе. На практике, конечно, все оказалось менее радужно:
+                                пришлось
+                                три месяца жестко впахивать, чтобы быстрее выйти в 0. Мой сайт окупился за 7 месяцев - в
+                                принципе, как и обещали.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <button type="submit" class="btn btn-pink btn-reviews">Хочу получить бизнес-план</button>
+        <button data-fancybox="" data-src="#modal" href="javascript:;" type="submit"
+            class="btn btn-pink _active btn-reviews">Хочу получить бизнес-план</button>
     </section>
 
     <footer>
@@ -929,7 +1026,7 @@
                     <strong><span>Портал Города</span> дает возможность</strong>
                     <div class="footer__text">открыть собственный прибыльный бизнес уже сейчас</div>
                     <div class="footer__item">
-                        <img src="img/logo-footer.svg" alt="">
+                        <img src="img/logo2.svg" alt="">
                         Не откладывайте на потом то, что можно сделать уже сегодня!
                     </div>
                     <div class="footer__info">
@@ -942,40 +1039,59 @@
                     </div>
                 </div>
                 <div class="col footer__col">
-                    <form action="#" method="POST">
-                        <div class="footer__form-text">Заинтересовала франшиза? Не упусти возможность зарабатывать
-                            от 4000$ в месяц!</div>
+                    <form id="footer-form" class="g-form" action="#" method="POST">
+                        <div class="footer__form-text g-form__title">Заинтересовала франшиза? Не упусти возможность
+                            зарабатывать от 400 000 ₽ в месяц!</div>
+                        <div class="g-form-respond"></div>
+                        <div class="g-form__preloader"></div>
                         <div class="input__container">
-                            <input class="input-field" type="text" name="Name" value="" placeholder="Имя">
+                            <input class="input-field" type="text" name="Name" required value="" placeholder="Имя">
                             <input class="input-field" type="text" name="City" value="" placeholder="Город">
-                            <input class="input-field" type="tel" name="Phone" value="" placeholder="Телефон">
-                            <input class="input-field" type="text" name="Email" value="" placeholder="E-mail">
+                            <input class="input-field input-field__phone" type="tel" name="Phone" required value="" placeholder="Телефон">
+                            <input class="input-field" type="email" name="Email" required value="" placeholder="E-mail">
+                            <input id="honeypot" type="text" name="honeypot" value="">
                         </div>
-                        <button class="btn btn-white btn-form" type="submit">Получить предложение</button>
+                        <button type="submit" class="btn btn-white btn-form g-form__button">Получить
+                            предложение</button>
                     </form>
+                </div>
+                <div class="footer__info-mobile">
+                    <div class="address">Россия, Белгород, 5-й заводской переулок, 30</div>
+                    <div class="footer__links">
+                        <img src="img/youtube.svg" alt="">
+                        <img src="img/facebook.svg" alt="">
+                    </div>
                 </div>
             </div>
         </div>
     </footer>
 
     <div id="modal">
-        <form action="#" method="POST">
-            <div class="modal__form-text">Не упусти возможность зарабатывать
-                от 4000$ в месяц!</div>
+        <form id="modal-form" class="g-form" action="#" method="POST">
+            <div class="modal__form-text g-form__title">Не упусти возможность зарабатывать
+                от 400 000 ₽ в месяц!</div>
+            <div class="g-form-respond"></div>
+            <div class="g-form__preloader"></div>
             <div class="input__container">
-                <input class="modal-input-field" type="text" name="Name" value="" placeholder="Имя">
+                <input class="modal-input-field" type="text" name="Name" required value="" placeholder="Имя">
                 <input class="modal-input-field" type="text" name="City" value="" placeholder="Город">
-                <input class="modal-input-field" type="tel" name="Phone" value="" placeholder="Телефон">
-                <input class="modal-input-field" type="text" name="Email" value="" placeholder="E-mail">
+                <input class="modal-input-field input-field__phone" type="tel" name="Phone" required value="" placeholder="Телефон">
+                <input class="modal-input-field" type="email" name="Email" required value="" placeholder="E-mail">
+                <input id="honeypot" type="text" name="honeypot" value="">
             </div>
-            <button class="btn btn-white btn-modal" type="submit">Получить предложение</button>
+            <button class="btn btn-modal g-form__button" type="submit">Получить предложение</button>
         </form>
     </div>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="js/main.js"></script>
-
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+	<script>
+		$(function() {
+			$('.input-field__phone').mask('+7(000)000-00-00');
+		});
+	</script>
 </body>
 
 </html>
